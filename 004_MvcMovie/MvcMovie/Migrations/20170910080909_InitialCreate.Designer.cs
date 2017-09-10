@@ -32,6 +32,7 @@ namespace MvcMovie.Migrations
                     b.Property<DateTime>("ReleaseDate");
 
                     b.Property<string>("Title");
+                    b.Property<string>("Rating");
 
                     b.HasKey("ID");
 
